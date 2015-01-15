@@ -1,0 +1,10 @@
+opam-version: "1"
+maintainer: "contact@ocamlpro.com"
+build: [
+  ["sh" "-c" "cd ide && coq_makefile -f Make -o Makefile.top"]
+  ["sh" "-c" "cd ide && make -f Makefile.top install-toploop"]
+]
+depends: [
+  "camlp5"
+  "coq" {= "8.5beta1"}
+]
