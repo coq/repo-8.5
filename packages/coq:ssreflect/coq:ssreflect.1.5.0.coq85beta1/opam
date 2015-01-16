@@ -3,8 +3,8 @@ maintainer: "Enrico.Tassi@inria.fr"
 homepage: "http://ssr.msr-inria.inria.fr/"
 license: "CeCILL-B"
 build: [
-  [make "-j%{jobs}%" "COQBIN=" "COQLIB="]
-  [make "install" "COQBIN=" "COQLIB="]
+  ["sh" "-c" "COQBIN= COQLIB= make -j%{jobs}%"]
+  ["sh" "-c" "COQBIN= COQLIB= make install"]
 ]
 remove: ["rm" "-R" "%{lib}%/coq/user-contrib/Ssreflect"]
 depends: [
