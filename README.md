@@ -8,7 +8,7 @@ Enable this repository:
 
 To install Coq 8.5 beta 1:
 
-   opam install coq.8.5beta1
+    opam install coq.8.5beta1
 
 To install a package:
 
