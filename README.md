@@ -7,6 +7,7 @@ Enable this repository:
     opam repo add coq-stable https://github.com/coq/repo-8.5.git
 
 To install Coq 8.5 beta 1:
+
    opam install coq.8.5beta1
 
 To install a package:
