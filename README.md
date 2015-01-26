@@ -4,7 +4,10 @@ The repository for stable Coq 8.5 packages. Powered by [OPAM](http://opam.ocamlp
 ## Usage
 Enable this repository:
 
-    opam repo add coq-stable https://github.com/coq/repo-stable.git
+    opam repo add coq-stable https://github.com/coq/repo-8.5.git
+
+To install Coq 8.5 beta 1:
+   opam install coq.8.5beta1
 
 To install a package:
 
