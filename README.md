@@ -1,7 +1,6 @@
-# Coq Repository (disabled)
-This repository is disabled because in OPAM dependencies are expressed using the `depends` keyword instead of having one repository per Coq version. See the `repo-coqs` to add Coq development versions.
+# Coq 8.5 Repository
 
-The repository for stable Coq 8.5 packages. Powered by [OPAM](http://opam.ocamlpro.com/).
+The repository for Coq 8.5 packages. Powered by [OPAM](http://opam.ocamlpro.com/).
 
 ## Usage
 Enable this repository:
@@ -18,4 +17,4 @@ To install a package:
     opam install coq:that-package
 
 ## Publish
-If you want to add your package, please do a pull-request to this repository. Note that only stable versions for Coq 8.5 will be accepted. For development versions, you can use the [testing](https://github.com/coq/repo-testing) or [unstable](https://github.com/coq/repo-unstable) repositories.
+If you want to add your package, please do a pull-request to this repository.
