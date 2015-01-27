@@ -1,5 +1,5 @@
 # Coq Repository (disabled)
-This repository is disabled because in OPAM dependencies are expressed using the `depends` keyword instead of having one repository per Coq version.
+This repository is disabled because in OPAM dependencies are expressed using the `depends` keyword instead of having one repository per Coq version. See the `repo-coqs` to add Coq development versions.
 
 The repository for stable Coq 8.5 packages. Powered by [OPAM](http://opam.ocamlpro.com/).
 
